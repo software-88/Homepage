@@ -1,5 +1,5 @@
 # Strapi Content-Modell (Entwurf) – schmidt-solutions.de
-Stand: 23.09.2026 · erstellt von Freddy · Status: ENTWURF, freigabepflichtig vor technischer Umsetzung
+Stand: 24.09.2026 · erstellt von Freddy · Status: ENTWURF, freigabepflichtig vor technischer Umsetzung
 
 Ziel: jedes Inhaltselement hat klar benannte Pflichtfelder. Damit sind die auf der aktuellen
 Website sichtbaren Platzhalter ("Slide title", "Bildtitel", "Button" ohne Ziel) im neuen
@@ -44,7 +44,7 @@ noch eine Quelle der Wahrheit, aus der alle Seiten die Kontaktdaten automatisch 
 |---|---|---|
 | Produktname | Text | ja |
 | Slug | UID | ja |
-| Kategorie | Enumeration (Agrardrohne/Kameradrohne/Lenksystem/Zubehör) | ja |
+| Kategorie | Enumeration (Agrardrohne/Kameradrohne/Zubehör) | ja |
 | Kurzbeschreibung | Text | ja |
 | Beschreibung | Rich Text | ja |
 | Technische Daten | wiederholbare Komponente (Label + Wert) | nein |
@@ -53,6 +53,8 @@ noch eine Quelle der Wahrheit, aus der alle Seiten die Kontaktdaten automatisch 
 | Verfügbarkeit | Enumeration (Verfügbar/Auf Anfrage/Nicht mehr verfügbar) | ja |
 | Verknüpfte Schulung | Relation zu `schulung` | nein |
 | SEO-Titel/Meta-Beschreibung | Text | ja |
+
+**Hinweis (24.09.2026):** Die Kategorie „Lenksystem" wurde entfernt, da Lenksysteme komplett aus dem Angebot gestrichen wurden.
 
 ## 4. Schulung (Collection Type: `schulung`)
 | Feld | Typ | Pflicht |
