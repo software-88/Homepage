@@ -1,7 +1,7 @@
 # Sitemap & URL-Konzept – schmidt-solutions.de (Entwurf)
-Stand: 23.09.2026 · erstellt von Freddy · Status: ENTWURF, freigabepflichtig vor Umsetzung
+Stand: 24.09.2026 · erstellt von Freddy · Status: ENTWURF, freigabepflichtig vor Umsetzung
 
-Dieses Dokument ist ein Vorschlag. Es ersetzt nicht die Antworten auf die offenen Fragen aus der Bestandsaufnahme (Telefonnummern, `/lenksysteme`, Bildmaterial, Maps/YouTube/WhatsApp, DSGVO-Prüfung durch Morgan). Vor Umsetzung: Freigabe durch Jan.
+Dieses Dokument ist ein Vorschlag. Es ersetzt nicht die Antworten auf die weiteren offenen Fragen aus der Bestandsaufnahme (Telefonnummern, Bildmaterial, Maps/YouTube/WhatsApp, DSGVO-Prüfung durch Morgan). Vor Umsetzung: Freigabe durch Jan.
 
 ## 1. Leitprinzipien für die neue URL-Struktur
 
@@ -25,7 +25,6 @@ Dieses Dokument ist ein Vorschlag. Es ersetzt nicht die Antworten auf die offene
 /produkte                           Drohnen & Zubehör (Übersicht)
 /produkte/agrardrohnen              Sprüh-/Streudrohnen (z. B. EAVISION J100)
 /produkte/kameradrohnen             Kamera-/Multispektraldrohnen (z. B. DJI Mavic 3M)
-/produkte/lenksysteme               Lenksysteme (ersetzt defekte Seite /lenksysteme)
 /ueber-uns                          Team & Unternehmen (ohne Umlaut in der URL)
 /referenzen                         Projekte/Referenzen – NEU, aktuell nicht vorhanden
 /ratgeber                           Fachbeiträge/Blog – NEU, für SEO-Content
@@ -33,6 +32,8 @@ Dieses Dokument ist ein Vorschlag. Es ersetzt nicht die Antworten auf die offene
 /datenschutz                        Eigenständige Datenschutzseite (aus /kontakt herausgelöst)
 /impressum                          Bereinigter Slug (ersetzt /impressum7fff571f)
 ```
+
+**Hinweis:** Lenksysteme wurden als eigenständiger Bereich vollständig gestrichen (Entscheidung vom 24.09.2026) – siehe Abschnitt 3 und 4.
 
 ### Warum aus `/kontakt` zwei Seiten werden
 Aktuell sind Kontakt und die vollständige Datenschutzerklärung auf einer URL zusammengefasst. Das ist weder für Nutzer noch für Suchmaschinen ideal: Der Kontaktbereich soll kurz und handlungsorientiert sein (Formular, Telefon, Karte), während die Datenschutzerklärung ein eigenständiges, rechtlich klar auffindbares Dokument braucht. Diese Trennung steht unter Vorbehalt der Prüfung durch Morgan.
@@ -54,7 +55,7 @@ Diese drei sind **Vorschläge**, keine Entscheidung – bitte im Team (ggf. mit 
 | `/leistungen#Inspektionen` | `/leistungen/inspektionen` | 301, aus Anker wird eigene Seite |
 | `/schulung-und-vertireb` | `/schulungen` | 301 (behebt Tippfehler) |
 | `/produkte` | `/produkte` | unverändert (wird Übersichtsseite) |
-| `/lenksysteme` | `/produkte/lenksysteme` | 301 (ersetzt defekte Seite) |
+| `/lenksysteme` | `/produkte` | 301 (Lenksysteme entfallen komplett als Angebot, Weiterleitung auf Produktübersicht) |
 | `/über-uns` | `/ueber-uns` | 301 (Umlaut-URL bereinigt) |
 | `/kontakt` | `/kontakt` | unverändert (wird schlanker) |
 | `/kontakt#datenschutz` | `/datenschutz` | 301, eigenständige Seite |
@@ -64,6 +65,7 @@ Diese drei sind **Vorschläge**, keine Entscheidung – bitte im Team (ggf. mit 
 
 ## 4. Noch offen / abhängig von Jans Antworten
 
-- Ob `/produkte/lenksysteme` inhaltlich befüllt werden kann, hängt davon ab, ob die Lenksysteme weiterhin Teil des Angebots sind (siehe offene Frage zu `/lenksysteme`-Fehler).
+- **Geklärt (24.09.2026):** Lenksysteme fallen komplett aus dem Angebot weg. `/lenksysteme` wird per 301 auf `/produkte` weitergeleitet, keine eigene Nachfolgeseite. Die Kategorie „Lenksystem" entfällt entsprechend auch aus dem Produkt-Content-Modell (siehe `02_Strapi_Content_Modell.md`).
 - Die genaue Positionierung von Weinbau/Forst als eigene Seiten oder als Abschnitte innerhalb von `/leistungen/landwirtschaft` sollte final mit Jan abgestimmt werden.
 - `/referenzen` und `/ratgeber` sind bewusst als Vorschlag markiert und noch nicht verbindlich eingeplant.
+- Weiterhin offen: Telefonnummer(n)/E-Mail, vorhandenes Bildmaterial, Umgang mit Google Maps/YouTube/WhatsApp, DSGVO-Prüfung durch Morgan (siehe Bestandsaufnahme und Arbeitsbericht).
