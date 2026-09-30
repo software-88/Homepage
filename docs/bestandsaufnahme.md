@@ -54,7 +54,7 @@ Empfehlung: Im neuen Content-Modell gibt es keine generischen Slide-/Button-Komp
 3. Gibt es weitere Unterseiten, die beim Crawl nicht auffindbar waren (z. B. nicht verlinkte Landingpages, Kampagnenseiten)?
 4. Gibt es vorhandenes Bildmaterial (Drohnenfotos, Team, Einsätze) in guter Auflösung, das übernommen werden soll, oder muss neues Material beschafft werden?
 5. Sollen die bestehenden Google Maps-/YouTube-/WhatsApp-Einbindungen 1:1 übernommen werden oder ist das eine gute Gelegenheit, das technisch/datenschutzrechtlich zu verschlanken?
-6. **Neu (30.09.2026):** Wie sollen schmidt-solutions.de und agridrones-europe.com künftig zueinander stehen? Siehe Abschnitt 9 – zwei getrennte Marken/Seiten, eine führende Seite mit Verweis auf die andere, oder perspektivische Zusammenführung?
+6. ~~Wie sollen schmidt-solutions.de und agridrones-europe.com künftig zueinander stehen?~~ → **Geklärt (30.09.2026):** Beide Seiten bleiben getrennt. schmidt-solutions.de fokussiert auf Dienstleistung/Beratung/Training (Landwirtschaft, Weinbau, Forst), agridrones-europe.com bleibt der eigenständige Drohnen-Shop mit Produkten, Zubehör und Software. Beide Seiten werden künftig klar gegenseitig verlinkt, um Verwirrung bei Nutzern und Suchmaschinen zu vermeiden.
 
 ## 8. Nächste Schritte
 1. Jan beantwortet die offenen Fragen aus Punkt 7.
@@ -101,9 +101,10 @@ Auf Hinweis von Jan geprüft: **agridrones-europe.com** ist eine weitere, eigens
 - WhatsApp-Widget ("WhatsApp us") ist eingebunden, ebenso wie auf schmidt-solutions.de erwähnt.
 
 ### Einordnung für den Relaunch
-Das ist eine wichtige Weichenstellung, die vor der weiteren Umsetzung geklärt werden sollte: Ein erheblicher Teil dessen, was für den Relaunch von schmidt-solutions.de ohnehin geplant war (ausführliche Produktseiten, Weinbau-/Forst-Bezug im Serviceangebot, englische Version, saubere URLs, Team-Darstellung), existiert auf agridrones-europe.com bereits – teils reifer als auf der Hauptseite. Mögliche Stoßrichtungen, die mit Jan (und ggf. Ethan) besprochen werden sollten:
-- **Zwei getrennte Marken/Seiten** bewusst beibehalten (z. B. schmidt-solutions.de für Dienstleistung/Beratung/Training, agridrones-europe.com als reiner Produkt-/Händlershop für Drohnen) – dann braucht es eine klare gegenseitige Verlinkung und Abgrenzung der Inhalte, damit sich beide Seiten in Google nicht gegenseitig kannibalisieren.
-- **Eine Seite als führende Plattform**, die andere als Weiterleitung/Unterbereich.
-- **Langfristige Zusammenführung** beider Seiten in eine gemeinsame, mehrsprachige Struktur auf der neuen Astro/Strapi-Plattform – dann sollten die bei Agridrones Europe bereits vorhandenen Inhalte (Produkttexte, EN-Übersetzungen, Team-Fotos) nach Freigabe direkt mit übernommen bzw. migriert werden, statt sie neu zu erstellen.
+Ein erheblicher Teil dessen, was für den Relaunch von schmidt-solutions.de ohnehin geplant war (ausführliche Produktseiten, Weinbau-/Forst-Bezug im Serviceangebot, englische Version, saubere URLs, Team-Darstellung), existiert auf agridrones-europe.com bereits – teils reifer als auf der Hauptseite.
 
-Diese Entscheidung hat direkten Einfluss auf das Content-Modell und die Sitemap (siehe `01_Sitemap_und_URL_Konzept.md`, `02_Strapi_Content_Modell.md`) und sollte vor dem nächsten großen Umsetzungsschritt getroffen werden. Bis zur Klärung ändert Freddy an den bestehenden Sitemap-/Content-Modell-Entwürfen nichts an dieser Stelle, sondern dokumentiert den Fund nur.
+**Entscheidung (30.09.2026):** Jan hat sich für **getrennte Marken/Seiten** entschieden. schmidt-solutions.de bleibt die Plattform für Dienstleistung, Beratung und Training (Landwirtschaft, Weinbau, Forst, Inspektionen), agridrones-europe.com bleibt der eigenständige Drohnen-Shop (Produkte, Zubehör, Software, technischer Service/Genehmigungen rund um die Drohnen selbst). Konsequenzen für die weitere Arbeit:
+- schmidt-solutions.de behält die Produktseiten (`/produkte`) nur als schlanken Überblick mit Verweis/Link zu agridrones-europe.com für Kauf, technische Details und Zubehör – keine Duplizierung der ausführlichen Produktdaten.
+- Auf beiden Seiten sollte eine klare, gegenseitige Verlinkung ergänzt werden (z. B. Footer-Link oder Hinweisbox „Drohnen kaufen? Zu Agridrones Europe" bzw. „Beratung & Schulung? Zu Schmidt Solutions"), damit Google und Nutzer die Abgrenzung verstehen und sich beide Seiten nicht gegenseitig kannibalisieren.
+- Die für schmidt-solutions.de geplanten Themen Weinbau/Forst/Referenzen/Ratgeber bleiben unabhängig von dieser Entscheidung relevant, da sie sich auf Beratung/Dienstleistung beziehen, nicht auf den Produktverkauf.
+- Agridrones Europe wird in dieser Runde nicht technisch migriert oder verändert – hier bleibt es bei WordPress, außer Jan äußert später einen expliziten Wunsch dazu.
