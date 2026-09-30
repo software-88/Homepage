@@ -1,5 +1,5 @@
 # Sitemap & URL-Konzept – schmidt-solutions.de (Entwurf)
-Stand: 24.09.2026 · erstellt von Freddy · Status: ENTWURF, freigabepflichtig vor Umsetzung
+Stand: 30.09.2026 · erstellt von Freddy · Status: ENTWURF, freigabepflichtig vor Umsetzung
 
 Dieses Dokument ist ein Vorschlag. Es ersetzt nicht die Antworten auf die weiteren offenen Fragen aus der Bestandsaufnahme (Telefonnummern, Bildmaterial, Maps/YouTube/WhatsApp, DSGVO-Prüfung durch Morgan). Vor Umsetzung: Freigabe durch Jan.
 
@@ -22,9 +22,10 @@ Dieses Dokument ist ein Vorschlag. Es ersetzt nicht die Antworten auf die weiter
 /leistungen/forst                   Forstwirtschaft – NEU als eigene Seite vorgeschlagen
 /leistungen/inspektionen            Gebäude-/PV-Anlagen-Inspektion, Thermografie
 /schulungen                         Schulung & Vertrieb (bereinigter Slug, ersetzt /schulung-und-vertireb)
-/produkte                           Drohnen & Zubehör (Übersicht)
+/produkte                           Drohnen, Software & Zubehör (Übersicht)
 /produkte/agrardrohnen              Sprüh-/Streudrohnen (z. B. EAVISION J100)
 /produkte/kameradrohnen             Kamera-/Multispektraldrohnen (z. B. DJI Mavic 3M)
+/produkte/software                  Software für Drohnenauswertung (PIX4Dfields), schlanker Überblick mit Link zu Agridrones Europe
 /ueber-uns                          Team & Unternehmen (ohne Umlaut in der URL)
 /referenzen                         Projekte/Referenzen – NEU, aktuell nicht vorhanden
 /ratgeber                           Fachbeiträge/Blog – NEU, für SEO-Content
@@ -34,6 +35,9 @@ Dieses Dokument ist ein Vorschlag. Es ersetzt nicht die Antworten auf die weiter
 ```
 
 **Hinweis:** Lenksysteme wurden als eigenständiger Bereich vollständig gestrichen (Entscheidung vom 24.09.2026) – siehe Abschnitt 3 und 4.
+
+### PIX4Dfields im Produktkonzept
+PIX4Dfields wird auf schmidt-solutions.de als Softwarelösung für die Auswertung von Drohnen- und Felddaten aufgenommen. Die Seite `/produkte/software` bleibt bewusst kompakt: Sie erklärt den Anwendungsbezug und führt für ausführliche Produktinformationen, Verfügbarkeit und Kaufberatung zu **agridrones-europe.com/pix4dfields/**. Dadurch bleibt die Trennung beider Websites erhalten und Produktinhalte werden nicht doppelt gepflegt. Hersteller- und Leistungsangaben müssen vor Veröffentlichung quellenbezogen geprüft werden.
 
 ### Warum aus `/kontakt` zwei Seiten werden
 Aktuell sind Kontakt und die vollständige Datenschutzerklärung auf einer URL zusammengefasst. Das ist weder für Nutzer noch für Suchmaschinen ideal: Der Kontaktbereich soll kurz und handlungsorientiert sein (Formular, Telefon, Karte), während die Datenschutzerklärung ein eigenständiges, rechtlich klar auffindbares Dokument braucht. Diese Trennung steht unter Vorbehalt der Prüfung durch Morgan.
