@@ -1,5 +1,5 @@
 # Strapi Content-Modell (Entwurf) – schmidt-solutions.de
-Stand: 24.09.2026 · erstellt von Freddy · Status: ENTWURF, freigabepflichtig vor technischer Umsetzung
+Stand: 30.09.2026 · erstellt von Freddy · Status: ENTWURF, freigabepflichtig vor technischer Umsetzung
 
 Ziel: jedes Inhaltselement hat klar benannte Pflichtfelder. Damit sind die auf der aktuellen
 Website sichtbaren Platzhalter ("Slide title", "Bildtitel", "Button" ohne Ziel) im neuen
@@ -44,17 +44,20 @@ noch eine Quelle der Wahrheit, aus der alle Seiten die Kontaktdaten automatisch 
 |---|---|---|
 | Produktname | Text | ja |
 | Slug | UID | ja |
-| Kategorie | Enumeration (Agrardrohne/Kameradrohne/Zubehör) | ja |
+| Kategorie | Enumeration (Agrardrohne/Kameradrohne/Software/Zubehör) | ja |
 | Kurzbeschreibung | Text | ja |
 | Beschreibung | Rich Text | ja |
+| Externe Produktseite | URL | nein | Bei getrennten Marken, z. B. ausführliche PIX4Dfields-Informationen auf Agridrones Europe |
 | Technische Daten | wiederholbare Komponente (Label + Wert) | nein |
 | Bildergalerie | Medienfeld mit Alt-Text-Pflicht | ja |
 | Hersteller | Text | nein |
 | Verfügbarkeit | Enumeration (Verfügbar/Auf Anfrage/Nicht mehr verfügbar) | ja |
 | Verknüpfte Schulung | Relation zu `schulung` | nein |
+| Quellen | Rich Text/URL | ja | Hersteller- oder Produktquelle, insbesondere bei Leistungs- und Technikangaben |
+| Prüfstatus | Enumeration (Freigegeben/Zu prüfen/Freigabe erforderlich/Vorläufige Herstellerinformation) | ja |
 | SEO-Titel/Meta-Beschreibung | Text | ja |
 
-**Hinweis (24.09.2026):** Die Kategorie „Lenksystem" wurde entfernt, da Lenksysteme komplett aus dem Angebot gestrichen wurden.
+**Beispiel PIX4Dfields:** Das Produkt wird in Strapi unter der Kategorie `Software` geführt. Auf schmidt-solutions.de erscheint eine kurze, serviceorientierte Einordnung mit externem Link zu Agridrones Europe; ausführliche technische oder kaufbezogene Produktinformationen werden dort nicht dupliziert. Die Felder `Quellen` und `Prüfstatus` bleiben auch bei Herstellerinformationen verpflichtend.
 
 ## 4. Schulung (Collection Type: `schulung`)
 | Feld | Typ | Pflicht |
