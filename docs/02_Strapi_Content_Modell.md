@@ -8,8 +8,8 @@ die Veröffentlichung, es wird nie ein Platzhaltertext live angezeigt.
 
 ## 1. Globale Einstellungen (Single Type: `global-settings`)
 - Firmenname
-- Telefonnummer(n) (wiederholbare Komponente: Label + Nummer, z. B. "Zentrale", "Mobil")
-- E-Mail-Adresse(n) (wiederholbare Komponente: Label + Adresse)
+- Telefonnummern (wiederholbare Komponente: Label + Nummer): `0172 / 164 49 44` und `0162 / 239 11 73` (beide von Jan am 30.09.2026 bestätigt)
+- E-Mail-Adresse: `drohne@schmidt-solutions.de` (von Jan am 30.09.2026 bestätigt)
 - Adresse (Straße, PLZ, Ort, Bundesland)
 - Öffnungszeiten (optional)
 - Social-/Messenger-Links (z. B. WhatsApp Business Nummer)
