@@ -1,7 +1,7 @@
 # Sitemap & URL-Konzept – schmidt-solutions.de (Entwurf)
 Stand: 30.09.2026 · erstellt von Freddy · Status: ENTWURF, freigabepflichtig vor Umsetzung
 
-Dieses Dokument ist ein Vorschlag. Es ersetzt nicht die Antworten auf die weiteren offenen Fragen aus der Bestandsaufnahme (Telefonnummern, Bildmaterial, Maps/YouTube/WhatsApp, DSGVO-Prüfung durch Morgan). Vor Umsetzung: Freigabe durch Jan.
+Die vier ergänzten Seiten und die genannten Kontaktdaten/Integrationen sind von Jan am 30.09.2026 bestätigt. Die technische Umsetzung und Veröffentlichung bleiben freigabepflichtig. Die Datenschutzerklärung wird vor finaler Übernahme durch Morgan geprüft.
 
 ## 1. Leitprinzipien für die neue URL-Struktur
 
@@ -18,8 +18,8 @@ Dieses Dokument ist ein Vorschlag. Es ersetzt nicht die Antworten auf die weiter
 /                                   Startseite
 /leistungen                         Leistungsübersicht
 /leistungen/landwirtschaft          Landwirtschaftliche Dienstleistungen
-/leistungen/weinbau                 Weinbau (Steillagen) – NEU als eigene Seite vorgeschlagen
-/leistungen/forst                   Forstwirtschaft – NEU als eigene Seite vorgeschlagen
+/leistungen/weinbau                 Weinbau (Steillagen) – von Jan am 30.09.2026 freigegeben
+/leistungen/forst                   Forstwirtschaft – von Jan am 30.09.2026 freigegeben
 /leistungen/inspektionen            Gebäude-/PV-Anlagen-Inspektion, Thermografie
 /schulungen                         Schulung & Vertrieb (bereinigter Slug, ersetzt /schulung-und-vertireb)
 /produkte                           Drohnen, Software & Zubehör (Übersicht)
@@ -27,8 +27,8 @@ Dieses Dokument ist ein Vorschlag. Es ersetzt nicht die Antworten auf die weiter
 /produkte/kameradrohnen             Kamera-/Multispektraldrohnen (z. B. DJI Mavic 3M)
 /produkte/software                  Software für Drohnenauswertung (PIX4Dfields), schlanker Überblick mit Link zu Agridrones Europe
 /ueber-uns                          Team & Unternehmen (ohne Umlaut in der URL)
-/referenzen                         Projekte/Referenzen – NEU, aktuell nicht vorhanden
-/ratgeber                           Fachbeiträge/Blog – NEU, für SEO-Content
+/referenzen                         Projekte/Referenzen – von Jan am 30.09.2026 freigegeben
+/ratgeber                           Fachbeiträge/Blog – von Jan am 30.09.2026 freigegeben
 /kontakt                            Nur Kontakt (Formular, Telefon, E-Mail, Anfahrt)
 /datenschutz                        Eigenständige Datenschutzseite (aus /kontakt herausgelöst)
 /impressum                          Bereinigter Slug (ersetzt /impressum7fff571f)
@@ -42,12 +42,12 @@ PIX4Dfields wird auf schmidt-solutions.de als Softwarelösung für die Auswertun
 ### Warum aus `/kontakt` zwei Seiten werden
 Aktuell sind Kontakt und die vollständige Datenschutzerklärung auf einer URL zusammengefasst. Das ist weder für Nutzer noch für Suchmaschinen ideal: Der Kontaktbereich soll kurz und handlungsorientiert sein (Formular, Telefon, Karte), während die Datenschutzerklärung ein eigenständiges, rechtlich klar auffindbares Dokument braucht. Diese Trennung steht unter Vorbehalt der Prüfung durch Morgan.
 
-### Neu vorgeschlagene Seiten (nicht in der bisherigen Website vorhanden)
-- `/leistungen/weinbau` und `/leistungen/forst`: Die Startseite nennt "Landwirtschaft, Weinbau und Forst" prominent, aber es gibt aktuell keine eigenen Landingpages dafür. Das ist SEO-Potenzial, das ungenutzt bleibt.
-- `/referenzen`: Aktuell keine Referenzen/Case Studies auf der Website sichtbar. Für Vertrauen und lokale Auffindbarkeit ("Agrardrohnen Baden-Württemberg") sehr wirksam.
-- `/ratgeber`: Raum für Fachbeiträge (z. B. "Wann lohnt sich Drohnensaat?", "Eichenprozessionsspinner erkennen"). Wichtig für organisches Wachstum jenseits der Leistungsseiten selbst.
+### Von Jan freigegebene Ergänzungen
+- `/leistungen/weinbau` und `/leistungen/forst`: eigenständige Leistungsseiten zu den bereits genannten Einsatzfeldern Weinbau und Forst.
+- `/referenzen`: Referenzprojekte als Vertrauens- und Nachweisbereich; konkrete Inhalte sind vor Veröffentlichung zu belegen und freizugeben.
+- `/ratgeber`: Fachbeiträge zu passenden Beratungs- und Trainingsthemen; Inhalte werden vor Veröffentlichung geprüft und freigegeben.
 
-Diese drei sind **Vorschläge**, keine Entscheidung – bitte im Team (ggf. mit Ethan) einmal grundsätzlich abstimmen, ob und wann Referenzen/Ratgeber-Inhalte realistisch gepflegt werden können.
+Die Seiten sind als Konzeptumfang freigegeben; konkrete Texte, Referenzen und deren Veröffentlichung benötigen weiterhin die übliche Inhaltsfreigabe.
 
 ## 3. Redirect-Tabelle (alt → neu)
 
@@ -67,9 +67,13 @@ Diese drei sind **Vorschläge**, keine Entscheidung – bitte im Team (ggf. mit 
 
 **Wichtig:** Diese Tabelle ist die Blaupause für die spätere technische Umsetzung der 301-Weiterleitungen. Ohne sie verliert die Website bei jedem indexierten Suchergebnis Sichtbarkeit. Sie darf beim Livegang nicht vergessen werden.
 
-## 4. Noch offen / abhängig von Jans Antworten
+## 4. Status der offenen Punkte (30.09.2026)
 
 - **Geklärt (24.09.2026):** Lenksysteme fallen komplett aus dem Angebot weg. `/lenksysteme` wird per 301 auf `/produkte` weitergeleitet, keine eigene Nachfolgeseite. Die Kategorie „Lenksystem" entfällt entsprechend auch aus dem Produkt-Content-Modell (siehe `02_Strapi_Content_Modell.md`).
-- Die genaue Positionierung von Weinbau/Forst als eigene Seiten oder als Abschnitte innerhalb von `/leistungen/landwirtschaft` sollte final mit Jan abgestimmt werden.
-- `/referenzen` und `/ratgeber` sind bewusst als Vorschlag markiert und noch nicht verbindlich eingeplant.
-- Weiterhin offen: Telefonnummer(n)/E-Mail, vorhandenes Bildmaterial, Umgang mit Google Maps/YouTube/WhatsApp, DSGVO-Prüfung durch Morgan (siehe Bestandsaufnahme und Arbeitsbericht).
+- **Geklärt (30.09.2026):** Weinbau, Forst, Referenzen und Ratgeber sind freigegeben und werden alle vier umgesetzt (siehe oben).
+- **Geklärt (30.09.2026):** Telefonnummer(n) (`0172/1644944` und `0162/2391173`) und E-Mail (`drohne@schmidt-solutions.de`) sind bestätigt und fließen unverändert in die globalen Kontaktdaten ein.
+- **Geklärt (30.09.2026):** Keine weiteren, unverlinkten Unterseiten vorhanden.
+- **Geklärt (30.09.2026):** Bildmaterial ist vorhanden, kein Neubeschaffungsbedarf für den Start.
+- **Geklärt (30.09.2026):** Google Maps/YouTube/WhatsApp Business werden 1:1 übernommen wie bisher.
+
+Damit sind alle in diesem Dokument offenen Punkte geklärt. Verbleibend: die konkrete Formulierung/Platzierung der gegenseitigen Verlinkung zwischen schmidt-solutions.de und agridrones-europe.com (siehe Bestandsaufnahme, Abschnitt 9) – Freddy erstellt hierzu einen separaten Vorschlag.
